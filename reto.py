@@ -5,6 +5,7 @@ max_phone_digits = 10
 users_data = {}
 user_list = []
 user_id = 1 # inicio en 1
+test = ""
 
 
 #defino una función por si necesito reutilizar este bloque de código
@@ -62,7 +63,6 @@ def registro():
     print("--------------------------------")
     print(f"\nSe han registrado {cantidad_usuarios} usuario/s")
 
-#Commentario
 
 def show_user():
             id_user = int(input("Ingrese el ID del usuario que desea ver: "))
