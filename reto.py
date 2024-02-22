@@ -62,6 +62,7 @@ def registro():
     print("--------------------------------")
     print(f"\nSe han registrado {cantidad_usuarios} usuario/s")
 
+#Commentario
 
 def show_user():
             id_user = int(input("Ingrese el ID del usuario que desea ver: "))
